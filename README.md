@@ -5,7 +5,7 @@ apple passport plugin for egg
 ## Install
 
 ```bash
-$ npm i egg-passport-apple --save
+$ npm i @io84team/egg-passport-apple --save
 ```
 
 ## Usage
@@ -14,7 +14,7 @@ $ npm i egg-passport-apple --save
 // config/plugin.js
 exports.passportApple = {
     enable: true,
-    package: "egg-passport-apple"
+    package: '@io84team/egg-passport-apple',
 }
 ```
 
